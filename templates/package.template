@@ -1,6 +1,6 @@
 {
-  "name": "npx-templates",
-  "version": "0.1.0",
+  "name": "@{{USER_AUTHOR}}/{{PROJECT_TITLE}}",
+  "version": "0.0.1",
   "description": "template to build npx packages from which in turn use templates to add functionality to your existing application",
   "license": "ISC",
   "author": "0xjceee@proton.me",
@@ -9,11 +9,19 @@
   "bin": {
     "installer": "./bin/cli.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/{{USER_AUTHOR}}/{{PROJECT_NAME}}.git"
+  },
   "files": [
     "bin/",
     "templates/",
     "lib/"
   ],
+  "bugs": {
+    "url": "https://github.com/{{USER_AUTHOR}}/{{PROJECT_NAME}}/issues"
+  },
+  "homepage": "https://github.com/{{USER_AUTHOR}}/{{PROJECT_NAME}}#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
