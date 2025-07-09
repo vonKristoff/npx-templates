@@ -1,0 +1,24 @@
+{
+  "name": "npx-templates",
+  "version": "0.0.0",
+  "description": "template to build npx packages from which in turn use templates to add functionality to your existing application",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "installer": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "templates/",
+    "lib/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.7.0"
+  }
+}

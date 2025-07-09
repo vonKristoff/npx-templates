@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+@import './darkmode.css';
+
+:root {
+	--col-dark: {{DARKMODE}};
+}
+
+@theme {
+	--color-twitter-blue: #1da1f2;
+	--color-primary: #00bc7d;
+	--color-secondary: #5ee9b5;
+	--color-black: var(--col-dark);
+	--color-accent: var(--color-amber-200);
+}
